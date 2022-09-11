@@ -6,7 +6,7 @@ app.get('/', function (req, res) {
 });
 
 // __dirname is Node global variable to calculate the path like this
-const absolutePath = __dirname + /views/index.html;
+const absolutePath = __dirname + '/views/index.html';
 
 // will server a file
 app.get('/', res.sendFile(absolutePath));
