@@ -1,12 +1,13 @@
 {
   "author": "Lukas Meinhart",
   "description": "This is just a project for learning node.js`",
-  "license": "zero-clause BSD",
   "keywords": [
     "freecodecamp",
     "nodejs",
     "backend"
   ],
+  "license": "zero-clause BSD",
+  "version": "1.0.0.",
   "name": "fcc-learn-npm-package-json",
   "dependencies": {
     "express": "^4.14.0"
